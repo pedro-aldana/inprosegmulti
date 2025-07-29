@@ -38,7 +38,7 @@ export function Services() {
             {" "}
             protección contra arco eléctrico y fuego repentino.
           </span>{" "}
-          en Nuestros overoles en drill e ignífugos cumplen con exigentes
+          En Nuestros overoles en dril e ignífugos cumplen con exigentes
           estándares de seguridad,{" "}
           <span className="text-yellow-300">
             ofreciendo resistencia, durabilidad y comodidad para entornos de

@@ -31,7 +31,7 @@ export default function ProductosPage() {
     selectedBrands
   );
   return (
-    <>
+    <div className="bg-gradient-to-br from-slate-200 to-blue-50">
       <Banner />
       <div className="container mx-auto px-4 py-8 -mt-12 lg:mt-4">
         {/* Mobile filter in accordion */}
@@ -105,6 +105,6 @@ export default function ProductosPage() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }

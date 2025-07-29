@@ -74,8 +74,8 @@ export function Footer() {
           <p className="mt-4">
             INPROSEG ES UNA EMPRESA{" "}
             <span className="font-bold">FUNDADA EN EL AÑO 2021</span>,
-            DEDICANDONOS A LA <span className="font-bold">ESPECIALIZADA</span>EN
-            LA DISTRIBUCION DE PRODUCTOS DE SEGURIDAD Y DOTACION{" "}
+            DEDICANDONOS A LA <span className="font-bold">ESPECIALIZADA </span>
+            EN LA DISTRIBUCION DE PRODUCTOS DE SEGURIDAD Y DOTACION{" "}
             <span className="font-bold">PARA EL SECTOR INDUSTRIAL</span> CON
             SEDE EN BARRANCABERMEJA Y COBERTURA A NIVEL NACIONAL
           </p>

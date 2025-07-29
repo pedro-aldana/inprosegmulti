@@ -288,7 +288,7 @@ export default memo(function Who({
               {/* Image Section */}
               <div className="relative">
                 <Image
-                  src="/images/obreros.jpeg"
+                  src="/images/juntos.jpg"
                   alt="Equipo de trabajadores de Magnex en uniforme azul frente a instalaciones industriales"
                   width={600}
                   height={400}
@@ -299,7 +299,7 @@ export default memo(function Who({
               {/* Content Section */}
               <div className="space-y-6">
                 <h2 className="text-4xl lg:text-5xl font-bold text-[#c2a110] leading-tight">
-                  QUIÉNES SOMOS
+                  ¿QUIÉNES SOMOS?
                 </h2>
 
                 <p className="text-slate-600 text-lg leading-relaxed">

@@ -3,7 +3,7 @@ import { Shield, Handshake, Recycle, Lightbulb, Target } from "lucide-react";
 
 export function Values() {
   return (
-    <div className="bg-gray-50 py-16 px-4">
+    <div className=" py-16 px-4">
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12">

@@ -25,10 +25,10 @@ const heroSlides: Slide[] = [
   },
   {
     image: "/images/pasion.jpg",
-    subtitle: "NUESTRA PROPUESTA COMBINA UNA",
-    title: "PASION INQUEBRANTABLE",
+    subtitle: "Compra EPPs con asesoría experta y atención personalizada",
+    title: "Tu seguridad es nuestro negocio",
     description:
-      "Para ofrecer lo mejor a nuestros clientes con un enfoque en la innovación y la excelencia.",
+      "Nos dedicamos a proteger a quienes mueven al mundo. Te ayudamos a encontrar los equipos adecuados para tu industria, garantizando calidad, cumplimiento normativo y entregas puntuales.",
   },
 ];
 

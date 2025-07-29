@@ -76,7 +76,7 @@ export default function FilterCategoryPage() {
 
   return (
     <>
-      <Banner />
+      <Banner title={currentCategory || "Categoría"} />
 
       <div className="container mx-auto px-4 py-8">
         {/* Products Grid - Más compacto */}

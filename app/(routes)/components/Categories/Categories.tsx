@@ -20,7 +20,7 @@ export function Categories() {
     <div className="bg-[#f7f7f7] py-8 px-4 bg-no-repeat bg-top bg-cover">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-center text-3xl font-bold text-[#c2a110] mb-10">
-          CATEGORIAS
+          CATEGORÍAS
         </h2>
         <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
           {categories.map((category) => {
