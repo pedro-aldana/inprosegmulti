@@ -281,7 +281,7 @@ export default memo(function Who({
         <FloatingPaths position={1} />
       </div>
 
-      <div className="relative z-10 container mx-auto px-4 md:px-6 text-center">
+      <div className="relative z-10 container mx-auto px-4 md:px-6 mt-12 md:mt-0 text-center">
         <div className="">
           <div className="max-w-7xl mx-auto">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -314,7 +314,7 @@ export default memo(function Who({
                   asegurando la satisfacción de nuestros clientes.
                 </p>
 
-                <Button className="bg-[#c2a110] hover:bg-[#fac11d] cursor-pointer text-white px-8 py-3 text-lg font-medium rounded-md transition-colors">
+                <Button className="bg-[#c2a110] hover:bg-[#fac11d] cursor-pointer text-white px-8 py-3 text-lg font-medium rounded-md transition-colors mb-12 md:mb-0">
                   <Link href="/nosotros">Conoce más sobre nosotros</Link>
                 </Button>
               </div>

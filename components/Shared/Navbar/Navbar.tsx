@@ -262,36 +262,39 @@ export function Navbar() {
                     animate="visible"
                     exit="hidden"
                   >
-                    <Link
-                      href="/"
-                      className="text-xl font-medium hover:opacity-100"
+                    <div
+                      onClick={() => setIsOpen(false)}
+                      className="text-xl font-medium hover:opacity-100 cursor-pointer"
                     >
-                      Inicio
-                    </Link>
-                    <Link
-                      href="/nosotros"
-                      className="text-xl font-medium hover:opacity-100"
+                      <Link href="/">Inicio</Link>
+                    </div>
+                    <div
+                      onClick={() => setIsOpen(false)}
+                      className="text-xl font-medium hover:opacity-100 cursor-pointer"
                     >
-                      Nosotros
-                    </Link>
-                    <Link
-                      href="/productos"
-                      className="text-xl font-medium hover:opacity-100"
+                      <Link href="/nosotros">Nosotros</Link>
+                    </div>
+
+                    <div
+                      onClick={() => setIsOpen(false)}
+                      className="text-xl font-medium hover:opacity-100 cursor-pointer"
                     >
-                      Productos
-                    </Link>
-                    <Link
-                      href="/nuestra-sede"
-                      className="text-xl font-medium hover:opacity-100"
+                      <Link href="/productos">Productos</Link>
+                    </div>
+
+                    <div
+                      onClick={() => setIsOpen(false)}
+                      className="text-xl font-medium hover:opacity-100 cursor-pointer"
                     >
-                      Nuestra sede
-                    </Link>
-                    <Link
-                      href="/contacto"
-                      className="text-xl font-medium hover:opacity-100"
+                      <Link href="/nuestra-sede">Nuestra sede</Link>
+                    </div>
+
+                    <div
+                      onClick={() => setIsOpen(false)}
+                      className="text-xl font-medium hover:opacity-100 cursor-pointer"
                     >
-                      Contacto
-                    </Link>
+                      <Link href="/contacto">Contacto</Link>
+                    </div>
                   </motion.nav>
 
                   {/* Desktop Contact Info */}
