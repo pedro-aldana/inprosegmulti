@@ -34,20 +34,20 @@ export function Services() {
         <p className="text-lg md:text-xl lg:text-2xl leading-relaxed mb-12 max-w-5xl mx-auto font-light">
           En Inproseg, fabricamos overoles industriales de alta calidad,
           incluyendo modelos ignífugos diseñados para brindar{" "}
-          <span className="text-yellow-300">
+          <span className="font-bold">
             {" "}
             protección contra arco eléctrico y fuego repentino.
           </span>{" "}
-          En Nuestros overoles en dril e ignífugos cumplen con exigentes
-          estándares de seguridad,{" "}
-          <span className="text-yellow-300">
+          Nuestros overoles en dril e ignífugos cumplen con exigentes estándares
+          de seguridad,{" "}
+          <span className=" font-bold">
             ofreciendo resistencia, durabilidad y comodidad para entornos de
             alto riesgo en la industria.
           </span>{" "}
         </p>
 
         <Button
-          className="bg-[#c2a110] hover:bg-[#fac11d] cursor-pointer text-white px-8 py-4 text-lg font-semibold rounded-md transition-colors duration-200"
+          className="bg-[#ecc30d] hover:bg-[#fac11d] cursor-pointer text-white px-8 py-4 text-lg font-semibold rounded-md transition-colors duration-200"
           size="lg"
         >
           <a href={whatsappUrl}>Conocer más</a>

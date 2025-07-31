@@ -19,7 +19,7 @@ export function Categories() {
   return (
     <div className="bg-[#f7f7f7] py-8 px-4 bg-no-repeat bg-top bg-cover">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-center text-3xl font-bold text-[#c2a110] mb-10">
+        <h2 className="text-center text-3xl font-bold text-[#ecc30d] mb-10">
           CATEGORÍAS
         </h2>
         <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">

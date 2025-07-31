@@ -155,9 +155,9 @@ const FloatingPaths = memo(function FloatingPaths({
         <title>Background Paths</title>
         <defs>
           <linearGradient id="sharedGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" stopColor="rgba(147, 51, 234, 0.5)" />
-            <stop offset="50%" stopColor="rgba(236, 72, 153, 0.5)" />
-            <stop offset="100%" stopColor="rgba(59, 130, 246, 0.5)" />
+            <stop offset="0%" stopColor="rgba(245, 235, 39)" />
+            <stop offset="50%" stopColor="rgba(245, 235, 39)" />
+            <stop offset="100%" stopColor="rgba(245, 235, 39)" />
           </linearGradient>
         </defs>
 
@@ -298,23 +298,23 @@ export default memo(function Who({
 
               {/* Content Section */}
               <div className="space-y-6">
-                <h2 className="text-4xl lg:text-5xl font-bold text-[#c2a110] leading-tight">
+                <h2 className="text-4xl lg:text-5xl font-bold text-[#ecc30d] leading-tight">
                   ¿QUIÉNES SOMOS?
                 </h2>
 
                 <p className="text-slate-600 text-lg leading-relaxed">
-                  En INPROSEG, nos especializamos en el suministro de productos
-                  y elementos de seguridad, y dotación para el sector
-                  industrial, entre otros, con presencia en Barrancabermeja y
-                  cobertura a nivel nacional. Desde nuestra fundación en el año
-                  2021, hemos trabajado con un firme compromiso hacia la
-                  calidad, garantizando soluciones que cumplen con los
-                  estándares y normativas vigentes. Nuestro enfoque se basa en
-                  ofrecer productos confiables y un servicio ágil y eficiente,
-                  asegurando la satisfacción de nuestros clientes.
+                  En INPROSEG, nos especializamos en el suministro de elementos
+                  de protección personal y dotacion para el sector industrial,
+                  entre otros, con presencia en Barrancabermeja y cobertura a
+                  nivel nacional. Desde nuestra fundación en el año 2021, hemos
+                  trabajado con un firme compromiso hacia la calidad,
+                  garantizando soluciones que cumplen con los estándares y
+                  normativas vigentes. Nuestro enfoque se basa en ofrecer
+                  productos confiables, un servicio ágil y eficiente, asegurando
+                  la satisfacción de nuestros clientes.
                 </p>
 
-                <Button className="bg-[#c2a110] hover:bg-[#fac11d] cursor-pointer text-white px-8 py-3 text-lg font-medium rounded-md transition-colors mb-12 md:mb-0">
+                <Button className="bg-[#ecc30d] hover:bg-[#fac11d] cursor-pointer text-white px-8 py-3 text-lg font-medium rounded-md transition-colors mb-12 md:mb-0">
                   <Link href="/nosotros">Conoce más sobre nosotros</Link>
                 </Button>
               </div>

@@ -8,6 +8,7 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { DialogTitle } from "@/components/ui/dialog";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
+import { MenuSheetToggle } from "./components/MenuSheetToggle";
 
 interface DropdownItem {
   href: string;
@@ -130,7 +131,7 @@ export function Navbar() {
 
   return (
     <motion.header
-      className="w-full  bg-[#0a0a08] text-white relative
+      className="w-full bg-white   md:bg-[#0a0a08] text-white relative
        z-50"
       initial="hidden"
       animate="visible"
@@ -223,125 +224,7 @@ export function Navbar() {
         </motion.nav>
 
         <div className="flex items-center space-x-1">
-          <Sheet open={isOpen} onOpenChange={setIsOpen}>
-            <SheetTrigger asChild>
-              <motion.div
-                variants={buttonVariants}
-                initial="idle"
-                whileHover="hover"
-                whileTap="tap"
-              >
-                <Button
-                  size="icon"
-                  className="bg-[#0b0b0a] text-white hover:bg-[#0e0e0ec1] -ml-12"
-                >
-                  <motion.div
-                    animate={{ rotate: isOpen ? 90 : 0 }}
-                    transition={{ duration: 0.2 }}
-                  >
-                    <Menu className="h-5 w-5 " />
-                  </motion.div>
-                  <span className="sr-only">Menu</span>
-                </Button>
-              </motion.div>
-            </SheetTrigger>
-            <AnimatePresence>
-              {isOpen && (
-                <SheetContent
-                  side="right"
-                  className="bg-[#0a0a09cf] text-white border-l border-white/10"
-                >
-                  {/* Mobile Navigation */}
-                  <DialogTitle className="sr-only">
-                    Menú de navegación
-                  </DialogTitle>
-                  <motion.nav
-                    className="flex flex-col space-y-6 pt-10 ml-12 md:hidden"
-                    variants={staggerContainer}
-                    initial="hidden"
-                    animate="visible"
-                    exit="hidden"
-                  >
-                    <div
-                      onClick={() => setIsOpen(false)}
-                      className="text-xl font-medium hover:opacity-100 cursor-pointer"
-                    >
-                      <Link href="/">Inicio</Link>
-                    </div>
-                    <div
-                      onClick={() => setIsOpen(false)}
-                      className="text-xl font-medium hover:opacity-100 cursor-pointer"
-                    >
-                      <Link href="/nosotros">Nosotros</Link>
-                    </div>
-
-                    <div
-                      onClick={() => setIsOpen(false)}
-                      className="text-xl font-medium hover:opacity-100 cursor-pointer"
-                    >
-                      <Link href="/productos">Productos</Link>
-                    </div>
-
-                    <div
-                      onClick={() => setIsOpen(false)}
-                      className="text-xl font-medium hover:opacity-100 cursor-pointer"
-                    >
-                      <Link href="/nuestra-sede">Nuestra sede</Link>
-                    </div>
-
-                    <div
-                      onClick={() => setIsOpen(false)}
-                      className="text-xl font-medium hover:opacity-100 cursor-pointer"
-                    >
-                      <Link href="/contacto">Contacto</Link>
-                    </div>
-                  </motion.nav>
-
-                  {/* Desktop Contact Info */}
-                  <motion.div
-                    className="hidden md:block pt-10 ml-12"
-                    variants={staggerContainer}
-                    initial="hidden"
-                    animate="visible"
-                    exit="hidden"
-                  >
-                    <h2 className="text-2xl font-bold mb-4">Contacto</h2>
-
-                    <p className="text-gray-300 mb-8 leading-relaxed">
-                      Nuestra grandeza y experiencia nos impulsan; seguimos
-                      creciendo y siempre estamos en movimiento hacia nuevas
-                      metas.
-                    </p>
-
-                    <div className="space-y-6">
-                      <div className="flex items-start gap-3">
-                        <MapPin className="w-5 h-5 text-gray-300 mt-1 flex-shrink-0" />
-                        <div className="text-gray-300">
-                          <p>Cra. 18 #47-75, Barrancabermeja, Santander</p>
-                        </div>
-                      </div>
-
-                      <div className="flex items-center gap-3">
-                        <Phone className="w-5 h-5 text-gray-300 flex-shrink-0" />
-                        <p className="text-gray-300">+57 3044695115</p>
-                      </div>
-                      <div className="flex items-center gap-3">
-                        <Phone className="w-5 h-5 text-gray-300 flex-shrink-0" />
-                        <p className="text-gray-300">+57 3244663618</p>
-                      </div>
-
-                      <div className="flex items-start gap-3">
-                        <Mail className="w-5 h-5 text-gray-300 mt-1 flex-shrink-0" />
-                        <div className="text-gray-300 space-y-1">
-                          <p>inprosegmulti@gmail.com</p>
-                        </div>
-                      </div>
-                    </div>
-                  </motion.div>
-                </SheetContent>
-              )}
-            </AnimatePresence>
-          </Sheet>
+          <MenuSheetToggle />
         </div>
       </div>
     </motion.header>
@@ -358,9 +241,9 @@ function MagnexLogo() {
         transition={{ duration: 0.6, delay: 0.3 }}
       >
         <Image
-          src="/images/logo.png"
+          src="/images/inpro2.png"
           alt="R.A.C Logo"
-          width={200}
+          width={300}
           height={150}
         />
       </motion.span>

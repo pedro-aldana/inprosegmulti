@@ -29,7 +29,7 @@ export function Footer() {
             </li>
           </ul>
           <div className="flex space-x-4 mt-4">
-            {[Facebook, Twitter, Instagram].map((Icon, i) => (
+            {[Facebook, Instagram].map((Icon, i) => (
               <Link
                 key={i}
                 href="#"
@@ -49,6 +49,16 @@ export function Footer() {
               className="ml-2"
             />
           </div>
+          <div className="mt-6 flex items-center">
+            <span className="text-lg font-bold">+57 3244663618</span>
+            <Image
+              src="/images/what.png"
+              alt="WhatsApp"
+              width={40}
+              height={40}
+              className="ml-2"
+            />
+          </div>
         </motion.div>
 
         {/* Center Column - Company Info */}
@@ -60,13 +70,13 @@ export function Footer() {
         >
           <div className="mb-4">
             <Image
-              src="/images/logo.png"
+              src="/images/inpro-blancoo.png"
               alt="R.A.C Logo"
-              width={140}
+              width={240}
               height={140}
               className="mx-auto"
             />
-            <h2 className="text-[#c2a110] font-bold text-xl mt-2">
+            <h2 className="text-[#ecc30d] font-bold text-xl mt-2">
               INGENIERIA PROTECCION SEGURIDAD <br /> Y MULTISERVICIOS S.A.S
             </h2>
           </div>
@@ -74,8 +84,8 @@ export function Footer() {
           <p className="mt-4">
             INPROSEG ES UNA EMPRESA{" "}
             <span className="font-bold">FUNDADA EN EL AÑO 2021</span>,
-            DEDICANDONOS A LA <span className="font-bold">ESPECIALIZADA </span>
-            EN LA DISTRIBUCION DE PRODUCTOS DE SEGURIDAD Y DOTACION{" "}
+            DEDICANDONOS A <span className="font-bold"> </span>
+            LA DISTRIBUCION DE PRODUCTOS DE SEGURIDAD Y DOTACION{" "}
             <span className="font-bold">PARA EL SECTOR INDUSTRIAL</span> CON
             SEDE EN BARRANCABERMEJA Y COBERTURA A NIVEL NACIONAL
           </p>
@@ -96,8 +106,8 @@ export function Footer() {
 
           <div>
             <h3 className="font-bold">HORARIOS:</h3>
-            <p>Lunes a Viernes de 7:30 a.m - 12 p.m, 2-6 p.m.</p>
-            <p>Sábados de 8:00 a.m a 12.30pm</p>
+            <p>Lunes a Viernes de 8:00 a.m - 12 p.m, 2-6 p.m.</p>
+            <p>Sábados de 8:00 a.m a 12.00pm</p>
           </div>
         </motion.div>
       </div>

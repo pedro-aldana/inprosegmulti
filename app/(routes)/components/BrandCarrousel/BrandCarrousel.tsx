@@ -26,8 +26,8 @@ export function BrandCarrousel() {
         "relative w-full bg-[#ffffff]  py-36 px-6 overflow-hidden "
       )}
     >
-      <h1 className="text-center text-3xl font-bold text-[#c2a110] mb-10">
-        MARCAS CON LAS QUE TRABAJAMOS
+      <h1 className="text-center text-3xl font-bold text-[#ecc30d] mb-10">
+        MARCAS ALIADAS
       </h1>
 
       <div className="relative overflow-hidden w-full">

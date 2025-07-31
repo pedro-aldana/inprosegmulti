@@ -35,17 +35,17 @@ interface Advisor {
 const advisors: Advisor[] = [
   {
     id: 1,
-    name: "Sarah Johnson",
-    phone: "+1234567890",
-    email: "sarah.johnson@company.com",
+    name: "Luz Quiñones",
+    phone: "3021247235",
+    email: "auxventasinprosegsas@gmail.com",
     photo: "https://via.placeholder.com/150/4F46E5/FFFFFF?text=SJ",
     specialty: "Asesora Comercial",
   },
   {
     id: 2,
-    name: "Michael Chen",
-    phone: "+1234567891",
-    email: "michael.chen@company.com",
+    name: "Alvaro Aguilar",
+    phone: "3008260891",
+    email: "comercial.inproseg01@gmail.com",
     photo: "https://via.placeholder.com/150/059669/FFFFFF?text=MC",
     specialty: "Asesor Comercial",
   },

@@ -84,7 +84,7 @@ export function FeaturedProducts() {
   return (
     <section className="py-12 px-4 md:px-6 bg-white bg-no-repeat bg-top bg-cover">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-center text-3xl font-bold text-[#c2a110] mb-10">
+        <h2 className="text-center text-3xl font-bold text-[#ecc30d] mb-10">
           PRODUCTOS DESTACADOS
         </h2>
         <div className="flex justify-between items-center mb-8">
