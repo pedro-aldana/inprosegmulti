@@ -15,7 +15,7 @@ export function Vision() {
             {/* Mission */}
             <div className="space-y-4">
               <h3 className="text-2xl font-semibold text-[#c2a110]">MISIÓN</h3>
-              <p className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed text-justify">
                 Somos una empresa líder en atender las necesidades y
                 requerimientos de nuestros clientes, teniendo como objetivo
                 fundamental la excelencia de nuestros productos y también de
@@ -30,7 +30,7 @@ export function Vision() {
             {/* Vision */}
             <div className="space-y-4">
               <h3 className="text-2xl font-semibold text-[#c2a110]">VISIÓN</h3>
-              <p className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed text-justify">
                 Ser la primera opción para el sector empresarial e industrial de
                 la región en soluciones integrales en Seguridad Industrial,
                 siendo reconocidos por el profesionalismo de nuestro equipo

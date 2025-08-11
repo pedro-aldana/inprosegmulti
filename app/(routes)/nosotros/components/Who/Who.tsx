@@ -23,7 +23,7 @@ export function Who() {
               ¿QUIÉNES SOMOS?
             </h2>
 
-            <div className="space-y-4 text-gray-700 leading-relaxed">
+            <div className="space-y-4 text-gray-700 leading-relaxed text-justify">
               <p>
                 En INPROSEG, nos especializamos en el suministro de productos y
                 elementos de seguridad, y dotación para el sector industrial,

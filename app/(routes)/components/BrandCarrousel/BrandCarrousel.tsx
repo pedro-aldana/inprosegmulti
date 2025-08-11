@@ -50,7 +50,7 @@ export function BrandCarrousel() {
               key={index}
               src={logo}
               alt="Método de pago"
-              className=" h-20 object-contain"
+              className="h-20 object-contain"
             />
           ))}
         </motion.div>

@@ -302,7 +302,7 @@ export default memo(function Who({
                   ¿QUIÉNES SOMOS?
                 </h2>
 
-                <p className="text-slate-600 text-lg leading-relaxed">
+                <p className="text-slate-600 text-lg leading-relaxed text-justify">
                   En INPROSEG, nos especializamos en el suministro de elementos
                   de protección personal y dotacion para el sector industrial,
                   entre otros, con presencia en Barrancabermeja y cobertura a

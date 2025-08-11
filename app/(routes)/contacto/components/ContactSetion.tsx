@@ -219,7 +219,7 @@ export function ContactSection() {
             <h3 className="text-3xl font-bold text-gray-900 mb-4">
               Nuestros asesores
             </h3>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto text-justify">
               Nuestros asesores experimentados están aquí para ayudarlo en cada
               paso . Póngase en contacto con el especialista adecuado para sus
               necesidades.

@@ -8,7 +8,7 @@ export function Values() {
         {/* Header */}
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-[#c2a110] mb-6">VALORES</h2>
-          <p className="text-gray-600 max-w-4xl mx-auto leading-relaxed">
+          <p className="text-gray-600 max-w-4xl mx-auto leading-relaxed text-justify">
             Los valores nos permiten orientar nuestro comportamiento en cada rol
             dentro de la compañía. Basar nuestro trabajo diario en estos
             valores, nos permite proporcionar soluciones integrales de alta
